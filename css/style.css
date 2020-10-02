@@ -111,7 +111,7 @@ body {
 
 .user-reviews {
   flex: 1;
-  display: flex;
+  display: flex-box;
   flex-direction: column;
   align-items: center; }
 
@@ -161,10 +161,12 @@ body {
     .search__button:active {
       transform: translateY(2px); }
 
-.user-nav {
+.user-nav 
+{
   align-self: stretch;
   display: flex;
-  align-items: center; }
+  align-items: center; 
+}
   .user-nav > * {
     padding: 0 2rem;
     cursor: pointer;
@@ -305,7 +307,7 @@ body {
   .overview__rating {
     background-color: var(--color-primary);
     margin-left: 3rem;
-    color: white;
+    color: blue;
     padding: 0 2.25rem;
     align-self: stretch;
     display: flex;
@@ -467,9 +469,9 @@ body {
       padding: 2.5rem 0; } }
   .cta__book-now {
     text-transform: uppercase;
-    font-size: 2rem;
-    font-weight: 300;
-    margin-bottom: 2.5rem; }
+    font-size: 3rem;
+    font-weight: 250;
+    margin-bottom: 3.5rem; }
 
 .btn {
   font-size: 1.5rem;
@@ -488,10 +490,10 @@ body {
     width: 100%;
     transition: all 0.2s; }
   .btn__visible {
-    padding: 2rem 7.5rem; }
+    padding: 3rem 7.5rem; }
   .btn__invisible {
     position: absolute;
-    padding: 2rem 0rem;
+    padding: 3rem 0rem;
     left: 0;
     top: -100%; }
   .btn:hover {
