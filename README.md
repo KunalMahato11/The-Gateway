@@ -12,3 +12,5 @@ A fictional website for booking hotels, flights, tours etc.
 
 ## All about Flexbox grid
 http://flexboxgrid.com/
+
+![image](https://user-images.githubusercontent.com/52077821/135706623-0193b090-dc72-4901-99a1-ad658d8bc3c7.png)
